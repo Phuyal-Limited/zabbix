@@ -4,5 +4,5 @@ cd zabbix-2.2.0
 ./configure --enable-agent
 sudo make install
 wget https://raw.github.com/anjani-phuyal/zabbix/master/zabbix_agentd.conf
-rm /usr/local/etc/zabbix_agentd.conf
+sudo rm /usr/local/etc/zabbix_agentd.conf
 sudo cp zabbix_agentd.conf /usr/local/etc/zabbix_agentd.conf
