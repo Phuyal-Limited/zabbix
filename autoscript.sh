@@ -1,5 +1,3 @@
-sudo groupadd zabbix
-sudo useradd -g zabbix zabbix
 wget http://kaz.dl.sourceforge.net/project/zabbix/ZABBIX%20Latest%20Stable/2.2.0/zabbix-2.2.0.tar.gz
 tar -xvf zabbix*
 cd zabbix-2.2.0
